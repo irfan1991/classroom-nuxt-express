@@ -1,5 +1,5 @@
 const { success, failed } = require("../../config/response");
-const { classes } = require("../../models");
+const { classes, join_classes } = require("../../models");
 const path = require('path')
 const fs = require('fs')
 

@@ -71,7 +71,7 @@ const generateQR = async text => {
     console.error(err)
   }
 }
-generateQR("http://imharshpatel.com")
+generateQR(this.data.id)
 
 
   },
